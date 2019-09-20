@@ -11,8 +11,11 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
 
-  <h4>God WIn oooooo</h4>
+  <h4>GOD WINS</h4>
+  <h1>KoofNG</h1>
+  <hr/>
+  <p>${pageContext.request.contextPath}</p>
+  <a href="${pageContext.request.contextPath}/show-form">Lets know who you are.</a>
   </body>
 </html>

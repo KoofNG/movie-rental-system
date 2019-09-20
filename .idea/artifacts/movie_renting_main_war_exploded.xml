@@ -20,8 +20,8 @@
           <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:5.1.9.RELEASE" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="movie-renting.main/web/Web Gradle : movie-renting-0.0.1.war" />
       <element id="javaee-facet-resources" facet="movie-renting.main/web/Web" />
+      <element id="javaee-facet-resources" facet="movie-renting.main/web/Web Gradle : movie-renting-0.0.1.war" />
     </root>
   </artifact>
 </component>

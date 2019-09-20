@@ -9,7 +9,7 @@ public class HomePage {
     // Return the Index page
     @GetMapping("/")
     public String showIndexPage() {
-        System.out.println("You are in me -> Show index page");
+        System.out.println("You are in me =>> Show index page");
         return "index";
     }
 }
