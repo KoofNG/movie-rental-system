@@ -17,5 +17,6 @@
   <hr/>
   <p>${pageContext.request.contextPath}</p>
   <a href="${pageContext.request.contextPath}/show-form">Lets know who you are.</a>
+  <a href="${pageContext.request.contextPath}/student/form">Student Form</a>
   </body>
 </html>

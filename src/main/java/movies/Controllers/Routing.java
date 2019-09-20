@@ -1,7 +1,9 @@
 package movies.Controllers;
 
+import movies.Models.Student;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -32,5 +34,10 @@ public class Routing {
         model.addAttribute("formParameter", theName);
         System.out.println("Ita wan!");
         return "processForm";
+    }
+
+    @RequestMapping("/spring-form-tags")
+    public String springFormTags(@ModelAttribute("student") Student theStudent) {
+        return "formTags";
     }
 }
